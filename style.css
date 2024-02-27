@@ -126,22 +126,24 @@ body {
         left: 50vw;
         z-index: 2;
     } 
+    
     #subtitle {
         font-family: 'Libre Barcode 128 Text', sans-serif;
-        font-size: 40px;
+        font-size: 80px;
     }
     
     #title {
         font-family: 'Kenia', sans-serif;
-        font-size: 60px;
+        font-size: 150px;
     }
 
     .titleStyle {
-        color: #C6BDFF;
+        color: transparent;
+        background: linear-gradient(to right, #C6BDFF, rgb(68, 58, 85)); /* Specifica il colore di sfumatura */
+        -webkit-background-clip: text;
+        background-clip: text;
     }
-
     
-
     .triangle1 {
         position: relative;
         width: 0;
