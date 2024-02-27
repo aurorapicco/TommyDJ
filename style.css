@@ -127,8 +127,6 @@ body {
     } 
 
     .titleStyle {
-        font-family: 'Kenia';
-        src: url("asset/Kenia-Regular.ttf") format('truetype'); 
         font-size: 40px;
         color: #C6BDFF;
     }
@@ -172,9 +170,7 @@ body {
         z-index: 2;
     }
 
-    .titleStyle {
-        font-family: 'Kenia';
-        src: url("asset/Kenia-Regular.ttf") format('truetype'); 
+    .titleStyle { 
         font-size: 80px;
         color: #C6BDFF;
     }
