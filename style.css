@@ -13,8 +13,8 @@ body {
     background-color: #C6BDFF;
     z-index: 3;
 } 
-.navbar > img{
-    float: left;
+
+.navbar > a > img{
     margin-top: 1vh;
     margin-left: 1vh;
     height: 5vh;
@@ -23,6 +23,7 @@ body {
 }
 
 @media (max-width: 767px) {
+    
     .navbar > a{
         float: right;
         text-align: center;
@@ -42,7 +43,10 @@ body {
         font-size: 1.5vw;  
     }
  }
-
+.navbar > #logoLink{
+    float: left; 
+    padding: 0px 0px;
+}
 
 
 /*parte slideshow*/
@@ -87,7 +91,9 @@ body {
     position: relative;
 }
 
-
+.section{
+    margin-top: 50px;
+}
 .container {
     display: flex;
     justify-content: flex-end;
