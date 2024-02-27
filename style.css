@@ -108,14 +108,25 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#subtitle {
+@font-face {
+    font-family: 'Kenia';
+    src: url("Kenia-Regular.ttf") format('truetype');
+}
+
+@font-face {
     font-family: 'Libre Barcode 128 Text';
-    src: url("asset/LibreBarcode128Text-Regular.ttf") format('truetype');
+    src: url("LibreBarcode128Text-Regular.ttf") format('truetype');
+}
+
+#subtitle {
+    font-family: 'Libre Barcode 128 Text', sans-serif;
+    font-size: 50px;
 }
 
 #title {
-    font-family: 'Kenia';
-    src: url("asset/Kenia-Regular.ttf") format('truetype'); 
+    font-family: 'Kenia', sans-serif;
+    font-size: 150px;
+    top: 20%;
 }
 
 @media (max-width: 906px) {
@@ -127,7 +138,9 @@ body {
     } 
 
     .titleStyle {
-        font-size: 40px;
+        font-family: 'Kenia';
+        src: url("Kenia-Regular.ttf") format('truetype'); 
+        font-size: 150px;
         color: #C6BDFF;
     }
 
@@ -170,7 +183,9 @@ body {
         z-index: 2;
     }
 
-    .titleStyle { 
+    .titleStyle {
+        font-family: 'Kenia';
+        src: url("Kenia-Regular.ttf") format('truetype'); 
         font-size: 80px;
         color: #C6BDFF;
     }
