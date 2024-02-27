@@ -80,6 +80,7 @@ body {
     height: 0;
     border-top: 100px solid rgba(88, 33, 204, 0.84); 
     border-left: 100px solid transparent; 
+
 }
 
 .container {
@@ -124,4 +125,23 @@ body {
     font-family: 'Kenia';
     src: url("\tommydj\Kenia-Regular.ttf") format('truetype'); 
     color: #C6BDFF;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .testo {
+        font-size: 9px; 
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .testo {
+        font-size: 16px; 
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .testo {
+        font-size: 20px;
+    }
 }
