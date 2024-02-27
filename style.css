@@ -9,8 +9,8 @@ body {
     top: 0vh;
     width: 100%;
     overflow: hidden;
-    border-bottom: solid black 1px;   
-    background-color: white;
+    border-bottom: solid #431DAE 1px;   
+    background-color: #C6BDFF;
     z-index: 3;
 } 
 .navbar > img{
@@ -154,5 +154,4 @@ body {
         color: #C6BDFF;
     }
  }
-
 
