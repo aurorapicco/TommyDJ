@@ -118,11 +118,10 @@ body {
     src: url("/asset/LibreBarcode128Text-Regular.ttf") format('truetype');
 }
 
-
-@media (max-width: 906px) {
+@media (max-width: 600px) {
     .title{
         position: absolute;
-        top:  -50vh;
+        top:  -30vh;
         left: 50vw;
         z-index: 2;
         width: 40vw;
@@ -130,12 +129,67 @@ body {
     
     #subtitle {
         font-family: 'Libre Barcode 128 Text', sans-serif;
-        font-size: 40px;
+        font-size: 3vh;
     }
     
     #title {
         font-family: 'Kenia', sans-serif;
-        font-size: 70px;
+        font-size: 5vh;
+    }
+
+    .titleStyle {
+        color: transparent;
+        background: linear-gradient(to right, #C6BDFF, rgb(68, 58, 85)); /* Specifica il colore di sfumatura */
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .triangle1 {
+        position: relative;
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #D9D9D9; 
+        border-right: 100px solid transparent; 
+        display: none;
+    }
+      
+    .triangle2 {
+        position: relative;
+        width: 0;
+        height:0;
+        border-top: 100px solid #D9D9D9; 
+        border-left: 100px solid transparent;
+        display: none; 
+    }
+    .box {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        position: relative;
+        background-color: #D9D9D9;
+        height: fit-content;
+        width: 100%; 
+        padding: 20px;
+        margin-right: auto; 
+    }
+}
+@media (min-width: 600px) and (max-width: 906px) {
+    .title{
+        position: absolute;
+        top:  -40vh;
+        left: 50vw;
+        z-index: 2;
+        width: 40vw;
+    } 
+    
+    #subtitle {
+        font-family: 'Libre Barcode 128 Text', sans-serif;
+        font-size: 4vh;
+    }
+    
+    #title {
+        font-family: 'Kenia', sans-serif;
+        font-size: 6vh;
     }
 
     .titleStyle {
