@@ -13,6 +13,9 @@
     text-decoration: none;
     font-size: 17px;  
 }
+
+
+/*parte slideshow presa da w3school*/
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -63,6 +66,4 @@
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
 }
-.mostra{
-    display: block;
-}
+/*fine parte slideshow*/
