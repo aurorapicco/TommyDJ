@@ -125,16 +125,17 @@ body {
         top:  -50vh;
         left: 50vw;
         z-index: 2;
+        width: 40vw;
     } 
     
     #subtitle {
         font-family: 'Libre Barcode 128 Text', sans-serif;
-        font-size: 80px;
+        font-size: 40px;
     }
     
     #title {
         font-family: 'Kenia', sans-serif;
-        font-size: 150px;
+        font-size: 70px;
     }
 
     .titleStyle {
