@@ -74,6 +74,14 @@ body {
 }
 /*fine parte slideshow*/
 
+.big-triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 100px solid rgba(88, 33, 204, 0.84); 
+    border-left: 100px solid transparent; 
+}
+
 .container {
     display: flex;
     justify-content: flex-end;
