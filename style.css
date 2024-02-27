@@ -108,6 +108,15 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#subtitle {
+    font-family: 'Libre Barcode 128 Text';
+    src: url("asset/LibreBarcode128Text-Regular.ttf") format('truetype');
+}
+
+#title {
+    font-family: 'Kenia';
+    src: url("asset/Kenia-Regular.ttf") format('truetype'); 
+}
 
 @media (max-width: 906px) {
     .title{
@@ -197,4 +206,3 @@ body {
         margin-right: auto; 
     }
  }
-
