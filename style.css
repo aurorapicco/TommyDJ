@@ -118,15 +118,6 @@ body {
     src: url("/asset/LibreBarcode128Text-Regular.ttf") format('truetype');
 }
 
-#subtitle {
-    font-family: 'Libre Barcode 128 Text', sans-serif;
-    font-size: 50px;
-}
-
-#title {
-    font-family: 'Kenia', sans-serif;
-    font-size: 80px;
-}
 
 @media (max-width: 906px) {
     .title{
